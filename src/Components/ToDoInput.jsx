@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './todoInput.css'
+import './ToDoInput.css'
 
-class todoInput extends Component {
+class ToDoInput extends Component {
     constructor(props){
         super(props);
 
         this.state = {
-
+            value: 'test',
         }
     }
 
@@ -27,4 +27,5 @@ class todoInput extends Component {
     }
 }
 
-export default todoInput
+
+export default ToDoInput
