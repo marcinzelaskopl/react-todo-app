@@ -6,7 +6,7 @@
 ## Live
 
 > You can check out live version of project here
-* #### [Live preview](http://loose-appliance.surge.sh/) done thanks to * #### [Surge](https://surge.sh/)
+* #### [Live preview](http://loose-appliance.surge.sh/) done thanks to [Surge](https://surge.sh/)
 ## Start
 ````
 $ git clone https://github.com/marcinzelaskopl/react-todo-app
