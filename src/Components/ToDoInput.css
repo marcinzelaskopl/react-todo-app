@@ -7,17 +7,21 @@
     padding: 8px;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 .btn-main {
-    color: rgba(73, 204, 249, 1);
-    border-color: rgba(73, 204, 249, 1);
+    color: #457B9D;
+    border-color: #457B9D;
     background-color: transparent;
 }
 
 input {
     width: 80%;
     border: none;
-    border-top: 2px solid rgba(73, 204, 249, 1);
-    border-bottom: 2px solid rgba(73, 204, 249, 1);
+    border-top: 2px solid #457B9D;
+    border-bottom: 2px solid #457B9D;
     margin-right: 10px;
     padding: 5px;
     line-height: 17px;

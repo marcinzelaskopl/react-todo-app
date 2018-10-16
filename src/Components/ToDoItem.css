@@ -17,3 +17,11 @@
     border-color: rgba(203, 20, 32, 0.4);
     background-color: transparent;
 }
+
+.removeToDo:hover {
+    cursor: pointer;
+}
+
+.toDoWrapper:hover {
+    cursor: pointer;
+}
