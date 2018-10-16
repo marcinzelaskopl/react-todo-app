@@ -6,21 +6,28 @@ class ToDoInput extends Component {
         super(props);
 
         this.state = {
-            value: 'test',
+            value: ''
         }
     }
 
-    handleChange = () => {
-      console.log('change here');
+    handleChange = (e) => {
+      this.setState({
+          value: e.target.value,
+      })
     };
 
     addToDo = todo => {
-      console.log('todo: ', todo);
+        if (todo.length > 0) {
+            this.props.addToDo(todo);
+            this.setState({
+                value: '',
+            })
+        }
     };
     render(){
         return (
             <div>
-                <input type={'text'} value={''} onChange={this.handleChange}/>
+                <input type={'text'} value={this.state.value} onChange={this.handleChange}/>
                 <button onClick={() => this.addToDo(this.state.value)} className={'btn btn-main'}>Submit</button>
             </div>
         )
